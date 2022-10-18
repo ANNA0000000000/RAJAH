@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=0,viewport-fit=cover">
+  <title>My LIFF App</title>
+</head>
+<body>
+    <script src="https://static.line-scdn.net/liff/edge/versions/2.5.0/sdk.js"></script>
+    <script>
+        async function main() {
+                                         // Liff ID
+            await liff.init({ liffId: "1657565858-1Rpwpqxr" })
+            await liff.shareTargetPicker([
+                {
+                    type: "flex",
+                    // ข้อความก่อนกดอ่าน
+                    altText: "พี่ว่างไหม",
+                    contents: 
+                    // โค้ดจาก line bot designer
+                    {
+  "type": "carousel",
+  "contents": [
+    {
+      "type": "bubble",
+      "hero": {
+        "type": "box",
+        "layout": "vertical",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "vertical",
+                "contents": [
+                  {
+                    "type": "text",
+                    "align": "center",
+                    "weight": "bold",
+                    "color": "#662715",
+                    "size": "lg",
+                    "offsetBottom": "none",
+                    "text": "♠  RAJAH ♠"
+                  },
+                  {
+                    "type": "text",
+                    "text": "พิเศษ!! รับโบนัส 150%",
+                    "align": "center",
+                    "color": "#ff0000",
+                    "size": "xs",
+                    "weight": "bold"
+                  }
+                ],
+                "paddingAll": "none",
+                "borderWidth": "medium",
+                "cornerRadius": "lg",
+                "borderColor": "#fff0b0",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#e4c41b",
+                  "endColor": "#e4c41b",
+                  "centerColor": "#fff0b0"
+                },
+                "spacing": "none",
+                "backgroundColor": "#e78b1e"
+              }
+            ],
+            "paddingAll": "none",
+            "borderWidth": "none",
+            "cornerRadius": "none",
+            "paddingEnd": "sm",
+            "paddingStart": "sm",
+            "margin": "none",
+            "offsetBottom": "none",
+            "offsetTop": "sm"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "image",
+                "url": "https://cdn.discordapp.com/attachments/1028671866866520095/1030835434374299688/FREE_Cradit.jpg",
+                "size": "full",
+                "aspectMode": "fit"
+              }
+            ],
+            "borderWidth": "bold",
+            "cornerRadius": "xl",
+            "paddingAll": "sm",
+            "offsetBottom": "xs",
+            "paddingStart": "md",
+            "paddingEnd": "md",
+            "margin": "md"
+          },
+          {
+            "type": "box",
+            "layout": "vertical",
+            "contents": [
+              {
+                "type": "text",
+                "text": "รับเลยเครดิตฟรี 50",
+                "align": "center",
+                "weight": "bold",
+                "size": "lg",
+                "color": "#662715"
+              },
+              {
+                "type": "text",
+                "text": "ไม่ต้องฝากก่อน รับได้ทุกคน",
+                "weight": "bold",
+                "align": "center",
+                "size": "xs",
+                "color": "#662715"
+              },
+              {
+                "type": "text",
+                "text": "เว็บตรง มั้นคง แจกหนักไม่อั้นทุกวัน",
+                "weight": "bold",
+                "align": "center",
+                "size": "xs",
+                "color": "#662715"
+              }
+            ],
+            "backgroundColor": "#e78b1e",
+            "borderWidth": "medium",
+            "borderColor": "#fff0b0",
+            "cornerRadius": "lg",
+            "paddingAll": "md",
+            "background": {
+              "type": "linearGradient",
+              "angle": "0deg",
+              "startColor": "#e4c41b",
+              "endColor": "#e4c41b",
+              "centerColor": "#fff0b0"
+            },
+            "spacing": "none"
+          },
+          {
+            "type": "box",
+            "layout": "horizontal",
+            "contents": [
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "รับเครดิตฟรี",
+                    "align": "center",
+                    "weight": "bold",
+                    "color": "#ffffff"
+                  }
+                ],
+                "backgroundColor": "#a27512",
+                "borderWidth": "medium",
+                "borderColor": "#fff0b0",
+                "cornerRadius": "md",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#e4c41b",
+                  "endColor": "#a27512"
+                },
+                "paddingAll": "md",
+                "paddingTop": "md",
+                "spacing": "none",
+                "margin": "none",
+                "offsetTop": "none"
+              },
+              {
+                "type": "box",
+                "layout": "horizontal",
+                "contents": [
+                  {
+                    "type": "text",
+                    "text": "สมัครสมาชิก",
+                    "weight": "bold",
+                    "align": "center",
+                    "color": "#ffffff"
+                  }
+                ],
+                "backgroundColor": "#a27512",
+                "borderWidth": "medium",
+                "borderColor": "#fff0b0",
+                "cornerRadius": "md",
+                "background": {
+                  "type": "linearGradient",
+                  "angle": "0deg",
+                  "startColor": "#e4c41b",
+                  "endColor": "#a27512"
+                },
+                "paddingAll": "md",
+                "paddingTop": "md",
+                "margin": "md"
+              }
+            ],
+            "paddingAll": "none",
+            "borderWidth": "none",
+            "cornerRadius": "none",
+            "paddingEnd": "sm",
+            "paddingStart": "sm",
+            "margin": "md",
+            "offsetBottom": "sm",
+            "spacing": "none"
+          }
+        ],
+        "borderWidth": "medium",
+        "cornerRadius": "xl",
+        "paddingAll": "sm",
+        "borderColor": "#9f0202",
+        "backgroundColor": "#551e23",
+        "background": {
+          "type": "linearGradient",
+          "angle": "0deg",
+          "startColor": "#000000",
+          "endColor": "#000000",
+          "centerColor": "#9f0202"
+        }
+      }
+    }
+  ]
+}
+                }
+            ])
+            liff.closeWindow()
+        }
+        main()
+    </script>
+</body>
+</html>
